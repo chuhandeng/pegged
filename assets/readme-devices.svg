@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="165" viewBox="0 0 1200 165" role="img" aria-labelledby="title desc">
+<title id="title">Pegged adaptive device layout</title><desc id="desc">Phone, tablet, laptop and ultrawide screen icons showing adaptive layouts.</desc>
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#eff8ff"/><stop offset=".5" stop-color="#f4f0ff"/><stop offset="1" stop-color="#fff1e7"/></linearGradient></defs>
+<rect width="1200" height="165" rx="26" fill="url(#bg)"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#49677d" stroke="#617d91" stroke-width="3">
+<g transform="translate(90 25)"><rect x="0" y="0" width="66" height="108" rx="14" fill="#fff" fill-opacity=".45"/><rect x="10" y="15" width="46" height="66" rx="8" fill="#79b8ff" fill-opacity=".25" stroke="none"/><text x="33" y="132" text-anchor="middle" stroke="none" font-size="14" font-weight="700">PHONE</text></g>
+<g transform="translate(322 25)"><rect x="0" y="3" width="108" height="101" rx="15" fill="#fff" fill-opacity=".45"/><rect x="12" y="15" width="84" height="58" rx="8" fill="#b7a7ff" fill-opacity=".24" stroke="none"/><text x="54" y="132" text-anchor="middle" stroke="none" font-size="14" font-weight="700">TABLET</text></g>
+<g transform="translate(570 29)"><rect x="0" y="0" width="142" height="88" rx="10" fill="#fff" fill-opacity=".45"/><path d="M-13 98 H155 L142 109 H0 Z" fill="#fff" fill-opacity=".62"/><path d="M12 13 H62 V75 H12 Z M70 13 H130 V40 H70 Z M70 47 H130 V75 H70 Z" fill="#79b8ff" fill-opacity=".22" stroke="none"/><text x="71" y="128" text-anchor="middle" stroke="none" font-size="14" font-weight="700">DESKTOP</text></g>
+<g transform="translate(840 34)"><rect x="0" y="0" width="220" height="79" rx="10" fill="#fff" fill-opacity=".45"/><path d="M-11 89 H231"/><path d="M13 13 H93 V66 H13 Z M102 13 H207 V37 H102 Z M102 44 H154 V66 H102 Z M162 44 H207 V66 H162 Z" fill="#ffb987" fill-opacity=".22" stroke="none"/><text x="110" y="123" text-anchor="middle" stroke="none" font-size="14" font-weight="700">ULTRAWIDE</text></g>
+</g></svg>

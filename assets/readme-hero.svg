@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Pegged — forecast-powered laundry timing</title>
+  <desc id="desc">A light liquid-glass illustration of a clothesline under a soft blue, lilac and peach sky.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef8ff"/>
+      <stop offset=".48" stop-color="#f2efff"/>
+      <stop offset="1" stop-color="#fff2e7"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".42"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#265b7e"/>
+      <stop offset=".48" stop-color="#635fa6"/>
+      <stop offset="1" stop-color="#be7566"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="20" stdDeviation="25" flood-color="#55769a" flood-opacity=".18"/>
+    </filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+  </defs>
+  <rect width="1200" height="390" rx="34" fill="url(#bg)"/>
+  <circle cx="100" cy="75" r="100" fill="#86d8ff" opacity=".28" filter="url(#blur)"/>
+  <circle cx="1050" cy="65" r="115" fill="#d2a9ff" opacity=".27" filter="url(#blur)"/>
+  <circle cx="1025" cy="345" r="135" fill="#ffbe87" opacity=".25" filter="url(#blur)"/>
+  <g filter="url(#shadow)">
+    <rect x="54" y="48" width="1092" height="294" rx="31" fill="url(#glass)" stroke="#fff" stroke-opacity=".9"/>
+    <path d="M90 90 H1110" stroke="#fff" stroke-opacity=".48"/>
+  </g>
+  <g transform="translate(85 78)">
+    <circle cx="13" cy="13" r="6" fill="#20a77a"/>
+    <circle cx="13" cy="13" r="11" fill="none" stroke="#20a77a" opacity=".2"/>
+    <text x="34" y="18" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2.4" fill="#637d91">LIVE LAUNDRY WEATHER</text>
+  </g>
+  <g transform="translate(85 124)">
+    <text x="0" y="66" font-family="Georgia,Times,serif" font-size="78" font-weight="700" fill="url(#word)">Pegged.</text>
+    <text x="2" y="109" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="600" fill="#47677d">Will it dry? Now you know.</text>
+    <text x="2" y="151" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#6b8194">Wind + sun + humidity + rain → one useful drying window.</text>
+    <g transform="translate(0 180)">
+      <rect width="174" height="45" rx="22.5" fill="#fff" fill-opacity=".74" stroke="#fff"/>
+      <text x="87" y="29" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#287459">HANG IT OUT</text>
+      <rect x="188" width="168" height="45" rx="22.5" fill="#fff" fill-opacity=".55" stroke="#fff"/>
+      <text x="272" y="29" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#8c6a2b">24H WINDOW</text>
+    </g>
+  </g>
+  <g transform="translate(665 92)">
+    <circle cx="355" cy="20" r="34" fill="#ffd58f" opacity=".92"/>
+    <path d="M20 116 C110 95 215 128 318 103 C385 87 437 92 478 84" fill="none" stroke="#5c7589" stroke-width="3" stroke-linecap="round"/>
+    <g transform="translate(88 103) rotate(3)">
+      <path d="M0 0 H54 L49 86 H5 Z" fill="#79b8ff" opacity=".86"/>
+      <path d="M19 0 V-13 M35 0 V-13" stroke="#536d83" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(188 109) rotate(-4)">
+      <path d="M0 0 H78 L67 68 H11 Z" fill="#b7a7ff" opacity=".84"/>
+      <path d="M24 0 V-13 M52 0 V-13" stroke="#536d83" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(327 101) rotate(4)">
+      <path d="M0 0 H62 L56 96 H6 Z" fill="#ffb987" opacity=".84"/>
+      <path d="M20 0 V-13 M42 0 V-13" stroke="#536d83" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M12 216 C112 199 211 222 307 202 C388 185 439 192 487 180" fill="none" stroke="#8ecce9" stroke-width="3" opacity=".45" stroke-linecap="round"/>
+    <g transform="translate(33 238)">
+      <rect width="425" height="62" rx="20" fill="#fff" fill-opacity=".46" stroke="#fff" stroke-opacity=".78"/>
+      <text x="22" y="27" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.5" fill="#71879a">NEXT WINDOW</text>
+      <text x="22" y="48" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#274e69">Dry in ~4h 20m · rain clear</text>
+    </g>
+  </g>
+</svg>
